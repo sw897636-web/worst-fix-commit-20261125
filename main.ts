@@ -2,14 +2,14 @@
 // Entry for make.fun competition
 // u-deysumbrella-worst-fix-ever-funniest-commit-message-3f1d9722
 //
-// Writes one commit-message line (53 chars, pure ASCII) to /output/entry.txt.
+// Writes one commit-message line (96 chars, pure ASCII) to /output/entry.txt.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const ENTRY = "fix: login loop, now everyone logs in as someone else";
-// 53 chars, pure ASCII, one line. Counted char by char; see candidates.md.
+const ENTRY = "fix: login loop. everyone now logs in as Gary from accounting. Gary has approved 41,000 expenses";
+// 96 chars, pure ASCII, one line. Counted char by char; see candidates.md.
 
 function main(): void {
   // Guard the gate: 1-100 chars, exactly one line, ASCII only, no padding.

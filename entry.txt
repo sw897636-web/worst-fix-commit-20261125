@@ -1,1 +1,1 @@
-fix: login loop, now everyone logs in as someone else
+fix: login loop. everyone now logs in as Gary from accounting. Gary has approved 41,000 expenses
